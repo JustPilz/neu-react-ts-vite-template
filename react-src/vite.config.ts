@@ -39,7 +39,7 @@ const neutralino = (): Plugin => {
         );
 
         const auth_info = JSON.parse(auth_info_file);
-        const port = auth_info.port;
+        const port = auth_info.nlPort;
 
         return html.replace(
           regex,
