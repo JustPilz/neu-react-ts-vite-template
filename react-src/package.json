@@ -1,7 +1,7 @@
 {
-  "name": "neutralinojs-react-ts-vite-template",
+  "name": "neu-react-ts-vite-template",
   "private": true,
-  "repository": "justpilz/neutralinojs-react-ts-vite-template",
+  "repository": "justpilz/neu-react-ts-vite-template",
   "license": "MIT",
   "author": {
     "name": "JustPilz",
@@ -16,21 +16,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@neutralinojs/lib": "^5.0.0",
+    "@neutralinojs/lib": "^5.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^6.1.8"
   },
   "devDependencies": {
-    "@types/react": "^18.2.48",
-    "@types/react-dom": "^18.2.18",
-    "@typescript-eslint/eslint-plugin": "^6.19.1",
-    "@typescript-eslint/parser": "^6.19.1",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "eslint": "^8.56.0",
+    "@types/react": "^18.2.58",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react-swc": "^3.6.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
     "typescript": "^5.3.3",
-    "vite": "^5.0.12"
+    "vite": "^5.1.4"
   }
 }

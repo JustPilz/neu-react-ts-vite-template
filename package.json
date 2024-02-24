@@ -1,7 +1,7 @@
 {
-  "name": "neutralinojs-react-ts-vite-template",
+  "name": "neu-react-ts-vite-template",
   "private": true,
-  "repository": "justpilz/neutralinojs-react-ts-vite-template",
+  "repository": "justpilz/neu-react-ts-vite-template",
   "license": "MIT",
   "author": {
     "name": "JustPilz",
@@ -12,6 +12,6 @@
     "build": "neu build"
   },
   "devDependencies": {
-    "@types/node": "^20.11.8"
+    "@types/node": "^20.11.20"
   }
 }
