@@ -21,6 +21,8 @@ export function App() {
       <S.Paragraph>
         {osInfo?.name} {osInfo?.version}
       </S.Paragraph>
+      <S.Paragraph>binaryVersion: {window.NL_VERSION}</S.Paragraph>
+      <S.Paragraph>clientVersion: {window.NL_CVERSION}</S.Paragraph>
     </S.Wrapper>
   );
 }
