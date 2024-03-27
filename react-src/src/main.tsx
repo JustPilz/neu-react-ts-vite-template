@@ -14,7 +14,7 @@ if (import.meta.env.DEV) {
     if (storedToken) window.NL_TOKEN = storedToken;
 
     // method 2
-    const authInfo = require('../../.tmp/auth_info.json');
+    const authInfo = await import('../../.tmp/auth_info.json');
     const { accessToken, port } = authInfo;
     window.NL_PORT = port;
     window.NL_TOKEN = accessToken;
