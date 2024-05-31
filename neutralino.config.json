@@ -6,6 +6,7 @@
   "url": "/",
   "enableServer": true,
   "enableNativeAPI": true,
+  "singlePageServe": true,
   "tokenSecurity": "one-time",
   "nativeAllowList": ["app.*", "computer.*", "window.*"],
   "logging": {
@@ -36,8 +37,8 @@
     "binaryName": "application",
     "resourcesPath": "/react-src/build/",
     "extensionsPath": "/extensions/",
-    "binaryVersion": "5.1.0",
-    "clientVersion": "5.1.0",
+    "binaryVersion": "5.2.0",
+    "clientVersion": "5.2.0",
     "frontendLibrary": {
       "patchFile": "/react-src/index.html",
       "devUrl": "http://localhost:3000",
