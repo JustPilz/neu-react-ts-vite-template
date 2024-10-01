@@ -1,6 +1,6 @@
 {
   "applicationId": "neutralinojs.react.ts.vite.template",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "defaultMode": "window",
   "documentRoot": "/react-src/build/",
   "url": "/",
@@ -37,8 +37,8 @@
     "binaryName": "application",
     "resourcesPath": "/react-src/build/",
     "extensionsPath": "/extensions/",
-    "binaryVersion": "5.3.0",
-    "clientVersion": "5.3.0",
+    "binaryVersion": "5.4.0",
+    "clientVersion": "5.4.0",
     "frontendLibrary": {
       "patchFile": "/react-src/index.html",
       "devUrl": "http://localhost:3000",
