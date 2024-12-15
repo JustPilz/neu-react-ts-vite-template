@@ -7,7 +7,7 @@
     "name": "JustPilz",
     "url": "https://github.com/JustPilz"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
@@ -16,7 +16,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@neutralinojs/lib": "^5.4.0",
+    "@neutralinojs/lib": "^5.5.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "styled-components": "^6.1.13"

@@ -10,8 +10,9 @@ With HMR mode and `styled-components`
 
 1. `git clone https://github.com/JustPilz/neu-react-ts-vite-template.git`
 2. `npm i -g @neutralinojs/neu` (skip if `neu` is already installed)
-3. `cd react-src && npm install`
-4. `cd ../ && npm run dev`
+3. `neu update` (to create bin folder and download binaries)
+4. `cd react-src && npm install && cd ../`
+5. `npm run dev`
 
 ### Run
 
