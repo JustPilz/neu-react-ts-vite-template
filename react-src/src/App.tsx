@@ -1,6 +1,6 @@
 import * as S from './styled';
 
-import { useEffect, useState } from 'react';
+import { version as reactVersion, useEffect, useState } from 'react';
 
 import { computer } from '@neutralinojs/lib';
 
@@ -17,12 +17,13 @@ export function App() {
 
   return (
     <S.Wrapper>
-      <S.Paragraph>Neutralinojs + React + TS + Vite template</S.Paragraph>
+      <S.H3>Neutralinojs + React + TS + Vite template</S.H3>
       <S.Paragraph>
-        {osInfo?.name} {osInfo?.version}
+        OS: {osInfo?.name} {osInfo?.version}
       </S.Paragraph>
-      <S.Paragraph>binaryVersion: {window.NL_VERSION}</S.Paragraph>
-      <S.Paragraph>clientVersion: {window.NL_CVERSION}</S.Paragraph>
+      <S.Paragraph>Neu binaryVersion: {window.NL_VERSION}</S.Paragraph>
+      <S.Paragraph>Neu clientVersion: {window.NL_CVERSION}</S.Paragraph>
+      <S.Paragraph>React version: {reactVersion}</S.Paragraph>
     </S.Wrapper>
   );
 }

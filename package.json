@@ -1,5 +1,6 @@
 {
   "name": "neu-react-ts-vite-template",
+  "version": "1.0.3",
   "private": true,
   "repository": "justpilz/neu-react-ts-vite-template",
   "license": "MIT",
@@ -13,5 +14,8 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.20"
+  },
+  "engines": {
+    "node": ">=20.18.0"
   }
 }

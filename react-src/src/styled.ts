@@ -9,4 +9,6 @@ export const Wrapper = styled.div`
   height: 100vh;
 `;
 
+export const H3 = styled.h3``;
+
 export const Paragraph = styled.p``;
