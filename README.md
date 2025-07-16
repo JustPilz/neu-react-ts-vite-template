@@ -35,3 +35,15 @@ it's an alias to `neu build`
 ```
 neu build --release
 ```
+
+## Update
+
+1. Update the config file:
+
+- option `cli.binaryVersion` with X.X.X
+- option `cli.clientVersion` with X.X.X
+
+Enter `neu update` to fetch this version.
+
+2. Update client library into `react-src`:
+   `npm install @neutralinojs/lib@latest`
