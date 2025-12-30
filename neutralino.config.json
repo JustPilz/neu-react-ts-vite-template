@@ -37,8 +37,8 @@
     "binaryName": "application",
     "resourcesPath": "/react-src/build/",
     "extensionsPath": "/extensions/",
-    "binaryVersion": "6.2.0",
-    "clientVersion": "6.2.0",
+    "binaryVersion": "6.4.0",
+    "clientVersion": "6.4.0",
     "frontendLibrary": {
       "patchFile": "/react-src/index.html",
       "devUrl": "http://localhost:3000",
