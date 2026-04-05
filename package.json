@@ -1,6 +1,6 @@
 {
   "name": "neu-react-ts-vite-template",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "private": true,
   "repository": "justpilz/neu-react-ts-vite-template",
   "license": "MIT",
@@ -10,7 +10,8 @@
   },
   "scripts": {
     "dev": "neu run -- --window-enable-inspector",
-    "build": "neu build"
+    "build": "neu build",
+    "build:embed": "neu build --embed-resources"
   },
   "devDependencies": {
     "@types/node": "^20.11.20"
